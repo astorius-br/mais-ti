@@ -1,0 +1,11 @@
+const fs = require('node:fs');
+
+fs.writeFileSync('testou.txt', "\nOlá Mundo!");
+
+data = fs.readFileSync('/home/maisti_dia/gsm/aula1/desenvolvimento-web/aula1/teste.txt', 'utf8')
+
+console.log(data)
+
+fs.appendFileSync('teste.txt', "\nOlá Mundo!");
+// fs.mkdir('sus')
+console.log(data)
