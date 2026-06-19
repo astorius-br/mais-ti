@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista</title>
+    </head>
+    <body>
+        <h1>Um Passeio por Listas</h1>
+        <ul>
+            <li>Elementos</li>
+                <ol type="a">
+                    <li>Terra</li>
+                    <dl>
+                        <dt>Karak</dt>
+                            <dd><img src="https://www.gormiti.com/images/char/char-karak.png"; width="200";></dd>
+                    </dl>
+                    <li>Água</li>
+                    <li>Fogo</li>
+                    <li>Ar</li>
+                        <dt>Aang</dt>
+                        <dd><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJJNSl3RW2jsj6UKwxAZ14vTakZSzsr7G7Qxc9KSb4Iw&s=10"; width="200"/></dd>
+                    <li>Raio</li>
+                        <dt>Kakashi</b></dt>
+                        <dd><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1-wHoDJjOqHQY9Uh085AQMYj8g4fwWN4YnsCqUDVvQ&s=10"; width="200"/></dd>
+                </ol>   
+            </li>
+            <li>Nomes
+            
+                </dt>
+            </li>
+        </ul>
+       
+        <a href="index.html">aqui</a>
+    </body>
+</html>
