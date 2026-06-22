@@ -5,7 +5,7 @@
     </head>
     <body>
         <h1>Um Passeio por Listas</h1>
-        <ul>
+   <!----     <ul>
             <li>Elementos</li>
                 <ol type="a">
                     <li>Terra</li>
@@ -28,7 +28,47 @@
                 </dt>
             </li>
         </ul>
-       
-        <a href="index.html">aqui</a>
+    ----->
+
+    <table border="1">
+        
+        <caption>Tabela de Instrutores por turma</caption>
+        
+        <!-- Cabeçalho das colunas-->
+        <thead> <!-- ou <th>, antes de tbody-->
+            <td>Turma</td>
+            <td>Instrutores 1</td>
+            <td>Instrutores 2</td>
+        </thead>
+
+        <tbody>
+            <!-- Linha 1-->
+            <tr>
+                <td>K</td>
+                <td>Túlio</td>
+                <td>Benevides</td>
+            </tr>
+            <!-- Linha 2-->
+            <tr>
+                <td>L</td>
+                <td>Alice</td>
+                <td>Helen</td>
+            </tr>
+            <!-- Linha 3-->
+            <tr>
+                <td>M</td>
+                <td>Antônio</td>
+                <td>Lucas</td>
+            </tr>
+            <!-- Linha 4-->
+            <tr>
+                <td>N</td>
+                <td>Mari</td>
+                <td>Fabio</td>             
+            </tr>            
+        </tbody>
+    </table>
+    <br><br>
+    <a href="index.html">Retornar ao menu principal</a>
     </body>
 </html>
