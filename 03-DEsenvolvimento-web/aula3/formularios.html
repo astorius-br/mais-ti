@@ -4,7 +4,13 @@
     <head>Forms aqui</head>
     <body>
         <h1>Dados de Cadastro</h1>
-        <form>
+        <form> 
+            <!--method="" pode usar get (problema de segurança por enviar dados no URL)
+            ou o post, envia no corpo da requisição http e sem limite de tamanho
+            action="" indica um caminho a ser enviado
+            target="" indica o alvo da ação ex.: "_blank" para nova aba
+            -->
+
             Nome: <input type="text"> <br>
             E-mail:<input type="email"> <br>
             Senha: <input type="password"> <br>
@@ -17,10 +23,13 @@
             <br><br>
             <input type="date" name="data">
             <br>
+            <fieldset>
             <h3>A fazer</h3> <!--checkbox é autoexplicativo e desselecionável-->
             <input type="checkbox" name="a fazer">Codar <br>
             <input type="checkbox" name="a fazer">Correr <br>
             <input type="checkbox" name="a fazer">Trabalhar <br>
+            <input type="button" value="Ok" onclick="alert('')">
+            </fieldset>
         </form>
     </body>
 
