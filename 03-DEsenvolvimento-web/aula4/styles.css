@@ -1,0 +1,25 @@
+header {
+    background-color: #003153;
+}
+
+body {
+    background-color: white;
+    width: 800;
+    height:auto;
+
+}
+
+h1 {
+    text-align: left;
+}
+
+div {
+    width: 600;
+}
+
+img {
+    width:fit-content;
+    height:fit-content;
+    border-radius: 30;
+    border-color:aqua;
+}
