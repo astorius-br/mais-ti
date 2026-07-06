@@ -1,5 +1,5 @@
 header {
-    width: 935px;
+    width: 100%;
     background-color: #003153;
     text-align: center;
     color: white;
@@ -9,22 +9,21 @@ header {
 body {
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: white;
     align-items: center;
     padding: 0px;
     margin: 0px;
 
 }
 
-main {
-    background-color: white;
-    width: auto;
-    height: auto;
-    margin: 5px;
-    padding: 15px;
-    border-color: aqua;
-    border-radius: 10px;
+div {
+    width: 750px;
+    text-align: center;
+}
 
+#div-index {
+    width: 750px;
+    text-align: left;
 }
 
 h2 {
@@ -32,19 +31,12 @@ h2 {
     font-weight: bold;
 }
 
-p {
-    text-align: justify;
-    
+#h2 {
+    text-align:center;
 }
 
-div {
-    width: 750px;
-    align-items: center;
-}
-
-section {
-    align-items: center;
-    margin: 5px;
+a {
+    color: orange;
 }
 
 img {
@@ -56,14 +48,52 @@ img {
     
 }
 
+#frame-map {
+    align-items: center;
+    width: 325px;
+    height: 200px;
+    border: 3px solid #003153;
+    border-radius: 20px;
+}
+
+main {
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 15px;
+    border-color: aqua;
+    border-radius: 10px;
+    text-wrap:inherit;
+
+}
+
+#menu-items {
+    align-content: left;
+    display: flex;
+    list-style-type: none;
+}
+
+li {padding-left: 60px;}
+
+p {
+    text-align: justify;
+    
+}
+
+section {
+    align-items: center;
+    margin: 5px;
+}
+
 footer {
-    width: 935px;
+    width: 100%;
     background-color: #003153;
     text-align:center;
     color: white;
     padding: 5px;
 }
 
-a {
-    color: orange;
+ul {
+    text-align: left;
 }
