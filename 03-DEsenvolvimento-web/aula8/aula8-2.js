@@ -57,7 +57,12 @@ meuBotao4.addEventListener('click', mostrarTitulo); // loc2 = nome da função a
 
 // BOTÃO 5 -- Clique Aqui
 const meuBotao5 = document.getElementById('botao5');
-meuBotao5.addEventListener('onclick', alert("É isso aí!"));
+
+function popup(){
+  alert("Muito bem!\nE se fosse um malware?")
+};
+
+meuBotao5.addEventListener('click', popup);
 
 // BOTÃO 6 -- retorna toda a configuração para a inicial, sem alterações
 const meuBotao6 = document.getElementById('botao6');
