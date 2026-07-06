@@ -87,3 +87,4 @@ const mudarFundo = () => {
 meuBotao7.addEventListener('click',mudarFundo);
 
 // https://www.homehost.com.br/blog/javascript/alert-javascript/
+// https://www.homehost.com.br/blog/javascript/switch-javascript/
