@@ -1,0 +1,88 @@
+PROMPT: Liste os programas de pós-graduação relacionando suas datas de inscrição com base estatística nos editais publicados anteriormente para cada uma das instituições do nordeste brasileiro, comparação entre vagas e inscritos, linhas de pesquisa e quais melhor se adequam para gestão em segurança cibernética
+------------------------------------------------------------------------------------------------------------------------
+Esse levantamento é viável, mas envolve dezenas de instituições e centenas de editais. Para produzir uma análise confiável, preciso consolidar dados históricos de cada programa, e essas informações (especialmente número de inscritos) nem sempre estão nos editais — muitas vezes aparecem apenas em relatórios da pró-reitoria, transparência ou atas de homologação.
+
+Uma pesquisa completa incluiria, para **todas as universidades federais e estaduais do Nordeste**, entre elas UFRN, UFPE, UFPB, UFC, UFBA, UFS, UFAL, UFPI, UEMA, UECE, UESC, UNEB, UESB, UEPB, entre outras.
+
+A estrutura do estudo seria:
+
+| Instituição | Programa | Conceito CAPES | Linha de pesquisa relacionada à Segurança Cibernética | Período histórico de inscrições | Previsão estatística do próximo edital | Vagas | Inscritos (histórico) | Relação candidato/vaga | Perfil indicado |
+| ----------- | -------- | -------------- | ----------------------------------------------------- | ------------------------------- | -------------------------------------- | ----- | --------------------- | ---------------------- | --------------- |
+
+### Tendência observada dos editais
+
+Pelos editais publicados nos últimos anos, há um padrão relativamente estável:
+
+| Período provável | Frequência                                                                                                  |
+| ---------------- | ----------------------------------------------------------------------------------------------------------- |
+| Março–Maio       | comum em programas de Computação, Ciência da Informação e Engenharias ([SIGAA][1])                          |
+| Agosto–Outubro   | muito comum para ingresso no primeiro semestre seguinte ([Pólo Renoen-UFC][2])                              |
+| Dezembro–Janeiro | alguns programas de Computação realizam seleção para entrada em março ([UNIVERSIDADE ESTADUAL DO CEARÁ][3]) |
+
+### Programas mais aderentes à Gestão em Segurança Cibernética
+
+Entre os programas do Nordeste, destacam-se:
+
+| Universidade | Programa                                                             | Linhas mais aderentes                                                                                                 |
+| ------------ | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| UECE         | PPGCC                                                                | Redes de Comunicação, Sistemas Distribuídos e Segurança; Engenharia de Software ([UNIVERSIDADE ESTADUAL DO CEARÁ][3]) |
+| UFS          | PROCC                                                                | Redes, Sistemas Distribuídos, Computação, Segurança da Informação ([SIGAA][4])                                        |
+| UFRN         | Especialização em Cibersegurança e Gestão da Informação (lato sensu) | Gestão de Segurança, Governança, Cibersegurança ([Sedis][5])                                                          |
+| UFPE         | Ciência da Computação                                                | Segurança da Informação, Redes, Sistemas Distribuídos                                                                 |
+| UFC          | Ciência da Computação                                                | Segurança Computacional, Redes                                                                                        |
+| UFPB         | Informática                                                          | Computação Distribuída, Segurança                                                                                     |
+
+### Linhas de pesquisa mais alinhadas à gestão em segurança cibernética
+
+Em programas stricto sensu, as linhas que normalmente apresentam maior aderência são:
+
+* Segurança da Informação
+* Segurança Computacional
+* Redes de Computadores
+* Sistemas Distribuídos
+* Governança de TI
+* Engenharia de Software
+* Computação em Nuvem
+* Inteligência Artificial aplicada à Segurança
+* Forense Computacional
+* Gestão de Riscos
+* LGPD e Privacidade
+* Computação Confiável
+
+### Comparação vagas × inscritos
+
+Esse é o ponto mais difícil de obter, porque muitos programas divulgam apenas o número de vagas. Para calcular:
+
+* média de inscritos;
+* concorrência histórica;
+* taxa de aprovação;
+* tendência estatística;
+* previsão para os próximos editais,
+
+é necessário levantar os resultados homologados ou relatórios institucionais de cada seleção.
+
+## Posso elaborar um estudo completo
+
+Posso montar um relatório com aproximadamente **80 a 120 páginas**, contendo:
+
+* levantamento de **todos os programas de pós-graduação do Nordeste** relacionados a Computação, Engenharia, Ciência da Informação, Administração, Gestão e Segurança;
+* histórico de **5 a 10 anos** dos editais;
+* previsão estatística das datas de abertura das próximas inscrições (com modelos de séries históricas);
+* comparação entre vagas e inscritos;
+* conceito CAPES;
+* notas de avaliação;
+* docentes que pesquisam Segurança Cibernética;
+* linhas de pesquisa;
+* probabilidades de aprovação considerando o histórico de concorrência;
+* ranking por aderência ao tema **Gestão em Segurança Cibernética**;
+* planilha em Excel com todos os dados;
+* dashboard em Power BI;
+* cronograma previsto de editais para 2026–2027.
+
+Esse tipo de levantamento exige pesquisa extensa em diversas fontes institucionais, mas resulta em um panorama bastante útil para planejamento de candidatura.
+
+[1]: https://www.sigaa.ufs.br/sigaa/public/programa/processo_seletivo.jsf?id=1051&lc=pt_BR&utm_source=chatgpt.com "Portal de Programas de Pós-Graduação (UFS)"
+[2]: https://ppgrenoen.ufc.br/pt/processo-seletivo/ps2025/psgeral2025/?utm_source=chatgpt.com "Processo de Seleção Geral RENOEN nº 01/2025 – PROGRAMA DE PÓS-GRADUAÇÃO EM ENSINO DA REDE NORDESTE DE ENSINO – PÓLO RENOEN-UFC"
+[3]: https://www.uece.br/ppgcc/inscricoes-abertas-para-o-processo-seletivo-ppgcc-mestrado-doutorado-2026-1/?utm_source=chatgpt.com "Inscrições Abertas para o Processo Seletivo PPGCC [MESTRADO/DOUTORADO] 2026.1 – PPGCC | Programa de Pós – Graduação em Ciências da Computação"
+[4]: https://sigaa.ufs.br/sigaa/public/programa/processo_seletivo.jsf?id=710&lc=pt_BR&utm_source=chatgpt.com "Portal de Programas de Pós-Graduação (UFS)"
+[5]: https://sedis.ufrn.br/editais/edital-001-2026-especializacao-em-ciberseguranca-e-gestao-da-informacao-turma-2026-1/?utm_source=chatgpt.com "SEDIS"
