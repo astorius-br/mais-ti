@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Sorteio</title>
+        
+        <link rel="stylesheet" href="style.css"></link>
+        <!--Foldit-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=swap" rel="stylesheet">
+        <!--Lovers Quarrel Static-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Lovers+Quarrel&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            Azztori
+        </header>
+        <p #extra>Um novo conceito, sua novidade</p>
+        <section>
+            <div>
+                <p>
+                Nome aqui
+                <br>
+                Ranking: <small>✯✯✯</small>
+                <br>
+                Hab 1: descrição da hab.
+                <br>
+                Hab 2: descrição da hab.
+                <br>
+                <br>
+                    Aqui receberá os dados específicos.
+                </p>
+            </div>
+        </section>
+    </body>
+</html>
+
+<!--
+https://fonts.google.com/specimen/Lovers+Quarrel?coloronly=true&preview.text=Concept&categoryFilters=Feeling:%2FExpressive%2FSophisticated&specimen.preview.text=Concept&preview.script=Latn
+https://fonts.google.com/specimen/Foldit?coloronly=true&preview.text=Concept&categoryFilters=Technology:%2FTechnology%2FColor&specimen.preview.text=Concept&preview.script=Latn
+https://fonts.google.com/specimen/Blaka+Ink?coloronly=true&preview.text=Concept&categoryFilters=Technology:%2FTechnology%2FColor&specimen.preview.text=Concept
+
+
+https://cornucopeiac.vercel.app/home
+
+https://mais-ti.github.io/
+-->
+
+<button id="btn">Local</button>
