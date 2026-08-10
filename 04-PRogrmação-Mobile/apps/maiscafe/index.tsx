@@ -1,100 +1,58 @@
-import { useState } from 'react';
-import { StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
+import React, { useState } from 'react';
+import { Text, TextInput, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from 'react-native-safe-area-context';
-
-const TextInputExample = () => {
-  const [text, onChangeText] = useState('Useless Text');
-  const [number, onChangeNumber] = useState(''); 
-}
+import { styles } from './styles';
+// import {'bemvindo.png'} from './'
 
 export default function Index() {
+  const [text, onChangeText] = useState('');
+
   return (
-    <SafeAreaView style={{
+    <SafeAreaView style={styles.saview}>
+      <View style={styles.view}>
+        <Text style={styles.cafe}>+Café          </Text>
+        <TouchableOpacity style={styles.buttonLight}>
+        Acesso</TouchableOpacity>
+      </View>
+
+      <View style={{flex: 1, flexDirection: 'column',}}>
+        <Text style={{fontWeight: '900', fontSize: 25, color: '#1F2937',}}>
+          Login</Text>
+        <Text style={{color: '#64748B'}}>Acesso segue por perfil</Text>
+        
+        <View style={{backgroundImage: './bemvindo.png'}}></View>
+        <Text></Text>
+        <Text></Text>
+        
+      </View>
+
+      <View style={{
         flex: 1,
-        justifyContent: "space-between",
-        alignItems: "center",
-        maxWidth: 600,
-        borderWidth: 5,
-        borderRadius: 20,
-        borderColor: '#000000',
-        margin: 30,
-        padding: 20,
+        justifyContent: 'center',
+        alignContent: 'center',
+
       }}>
-    <View /*topo logo + login */ 
-    style={{
-      width: 600,
-      height: 70,
-      borderWidth: 5,
-      justifyContent: 'space-between',
-    }}>
-      <Text>+Café
-      </Text>
-      <TouchableOpacity style={styles.buttonColor}>
-      Acesso</TouchableOpacity>
-      
-      <Text>Login</Text>
-      <Text>Acesso segue por perfil</Text>
-      
-      <Text></Text>
-      <Text></Text>
-      
-    </View>
+        <Text>Bem-vindo ao +Café</Text>
+        <Text>Entre com seu e-mail e senha</Text>
+        <TextInput style={styles.input}
+        placeholder='E-mail'
+        onChangeText={onChangeText}
+        value={text} />
 
-    <View style={{
-      flex: 1,
-      justifyContent: 'center',
-      alignContent: 'center',
+        <TouchableOpacity style={
+          styles.buttonColor}>
+          <Text style={{color: 'white'}}>Entrar</Text>
+          </TouchableOpacity>
+      </View>
 
-    }}>
-      <Text>Bem-vindo ao +Café</Text>
-      <Text>Entre com seu e-mail e senha</Text>
-      <TextInput style={styles.input}
-      onChangeText={onchange}/>
-
-      <TouchableOpacity style={
-        styles.buttonColor}>
-        <Text style={{color: 'white'}}>Entrar</Text>
-        </TouchableOpacity>
-    </View>
-
-    <View></View>
-    <View></View>
+      <View></View>
+      <View></View>
     </SafeAreaView>
   );
 }
+// menu inferior
+<View style={styles.view}>
 
-<View style={{
-        flex: 1,
-        justifyContent: 'space-between',
-        margin: 2,
-      }} ></View>
-  
+</View>
 
-export const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'space-between',
-    margin: 2,
-    padding: 5,
-    backgroundColor: '#FBF7F2', //creme
-  },
-
-  buttonColor: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: 200,
-    height: 25,
-    borderRadius: 5,
-    backgroundColor: '#6F4E37',
-  },
-
-  input: {
-    width: 200,
-    height: 25,
-    margin: 10,
-    borderWidth: 1,
-    borderRadius: 5,
-    borderColor: '#6F4E37',
-    padding: 5,
-  },
-})
+// https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkXPvakvEkky7c0nENwWocn2CTZJxjan0gWkKLaHyvyQcLfBbSOEE0WOE&s=10
